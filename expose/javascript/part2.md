@@ -51,3 +51,5 @@
 
     F. `true === Boolean(2)` evaluates to `true` because the explicit `Boolean` conversion maps all numbers other than `0`, `-0`, and `NaN` to `true`. 
 15. `==` does an equality check while `===` does a strict equality check. Essentially, `==` does type conversion and then comparison, while `===` compares both the values and data types of the operands directly against one another. 
+16. Code is in file `part2-question16.js`.
+17. If the given function is called with the given input, the result will be `[2, 4, 6]`. First, `array` in `modifyArray` is assigned to the value of `[1,2,3]` and `callback` in `modifyArray` is assigned to `doSomething`. For each element of `array`, `doSomething` is called on it, and then that value is stored to the back of `newArr` (which was initialized to be empty). `doSomething` multiplies its input by `2`, so `newArr`, at the end of the for loop, is `array` except each value of `array` has been multiplied by 2. `newArr` is then returned, which is what the result was found to be.  
