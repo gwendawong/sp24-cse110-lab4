@@ -11,7 +11,11 @@
 11. This function returns an array where `discount` has been applied to the values of the array `prices`, in this case, `[50, 100, 50]`. This is because `discounted` is declared with the keyword `const`, so it is accessible (but cannot be reassigned) throughout its code block. In this case, its scope is the entire function. Note that, although `const` variables cannot be reassigned, its contents can be mutated, which is what is happening here with the `push` method to add the values to `discounted`. The values of `prices` with `discount` applied to them are appended to `discounted` in line 9, and this value is calculated in line 7 (as discussed in questions 2).
 12. 
     A. `student.name`
+    
     B. `student['Grad Year']`
+    
     C. `student.greeting()`
+    
     D. `student['Favorite Teacher'].name`
+    
     E. `student.courseLoad[0]`
