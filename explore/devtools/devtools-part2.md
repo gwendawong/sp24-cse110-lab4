@@ -1,0 +1,2 @@
+1. The bug was that `num1` and `num2` were taken in with the type `string`. This means that `result` was formed by the concatenation of strings, so it wasn't performing addition. 
+2. I would fix this by parsing `num1` and `num2` as integers. A screenshot of this fix is labeled `fix.png` and is located under `expand/screenshots`.  
