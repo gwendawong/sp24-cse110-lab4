@@ -1,0 +1,2 @@
+1. At line 12, "3" will be printed. This is because `i` was declared with the keyword `var`, so it is accessible throughout the entire function. Since the given array `[100, 200, 300]` has three values and the for loop stops executing once `i` has incremented to be equal to or above the length of this array, when `i` is `3`, it stays at this value and the for loop doesn't execute. Thus, the value of `i` as of line 12 is `3`, which is printed because it is in scope.
+2. 
