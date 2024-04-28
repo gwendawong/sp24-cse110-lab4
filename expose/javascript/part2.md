@@ -9,3 +9,9 @@
 9. At line 11, the code causes an error. This is because the variable `i` was declared using the `let` keyword, and so the variable is only accessible from within the block it is defined in. In this case, that is the for loop starting in line 6 and ending on line 10. Line 11 is outside of this block, so `i` isn't defined there and an error thus occurs. 
 10. At line 12, "3" will be printed. This is because `length` was declared with the keyword `const`, making its scope the block it is in and it cannot be reassigned. Its code block, in this case, is the entire function. It's original value was assigned to `prices.length`, which, with the given input, is `3`, so that didn't change the entire function and was thus printed. 
 11. This function returns an array where `discount` has been applied to the values of the array `prices`, in this case, `[50, 100, 50]`. This is because `discounted` is declared with the keyword `const`, so it is accessible (but cannot be reassigned) throughout its code block. In this case, its scope is the entire function. Note that, although `const` variables cannot be reassigned, its contents can be mutated, which is what is happening here with the `push` method to add the values to `discounted`. The values of `prices` with `discount` applied to them are appended to `discounted` in line 9, and this value is calculated in line 7 (as discussed in questions 2).
+12. 
+    A. `student.name`
+    B. `student['Grad Year']`
+    C. `student.greeting()`
+    D. `student['Favorite Teacher'].name`
+    E. `student.courseLoad[0]`
